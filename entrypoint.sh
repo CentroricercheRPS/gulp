@@ -6,4 +6,7 @@ set -- gulp "$@"
 
 npm install --save-dev
 
-exec "$@"
+bower install --allow-root
+
+gulp build
+
