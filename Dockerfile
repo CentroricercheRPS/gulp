@@ -41,6 +41,7 @@ RUN npm remove gulp
 RUN npm install -g bower
 RUN npm install -g gulp@3.9.0
 RUN npm install gulp@3.9.0
+RUN npm install gulp-string-replace
 
 WORKDIR /srv
 VOLUME /srv
