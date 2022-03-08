@@ -42,6 +42,7 @@ RUN npm install -g bower
 RUN npm install -g gulp@3.9.0
 RUN npm install gulp@3.9.0
 RUN npm install gulp-string-replace
+RUN npm install readline-sync
 
 WORKDIR /srv
 VOLUME /srv
